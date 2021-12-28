@@ -4,15 +4,13 @@ import './index.css';
 // import { Route,Switch } from 'react-router-dom';
 import {
     BrowserRouter ,
-    
   } from 'react-router-dom';
-import LandingPage from './Components/LandingPage'
+
 import reportWebVitals from './reportWebVitals';
-
-
+import Nextpage from './Components/Nextpage';
 ReactDOM.render(
   <BrowserRouter>
-    <LandingPage/>
+    <Nextpage/>
   </BrowserRouter>
  ,
   document.getElementById('root')

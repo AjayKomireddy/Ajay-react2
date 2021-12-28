@@ -25,9 +25,7 @@ const LandingPage=()=>{
             
 
         </div>
-        <Routes>
-            <Route exact path='/insta' element= {<App/>}/>
-        </Routes> 
+        
         
         </>
     )
